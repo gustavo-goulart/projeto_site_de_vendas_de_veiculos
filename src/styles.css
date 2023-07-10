@@ -6,6 +6,7 @@
 
 html {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 header {
@@ -28,6 +29,10 @@ footer > .container {
   justify-content: space-between;
   align-items: center;
   padding-bottom: 16px;
+}
+
+header img {
+  cursor: pointer;
 }
 
 nav {
